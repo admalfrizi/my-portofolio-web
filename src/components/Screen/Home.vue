@@ -265,7 +265,7 @@
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div>
               <a
-                href="#"
+                href="mailto:adam.alfarizi.2002@gmail.com"
                 class="
                   Btn-NH
                   w-full
