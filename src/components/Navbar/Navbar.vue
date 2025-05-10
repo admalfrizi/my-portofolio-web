@@ -12,7 +12,7 @@
                   <RouterLink to="/">
                     <span class="text-white font-bold Title-nav">AAI Web</span>
                   </RouterLink>
-                  <div class="mr-4 flex items-center md:hidden">
+                  <div class="flex items-center md:hidden">
                     <PopoverButton
                       class="
                         bg-white
