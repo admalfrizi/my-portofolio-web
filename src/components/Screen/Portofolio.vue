@@ -11,6 +11,9 @@
           <TabPorto/>
         </template>
         <template v-slot:tabPanel-2> 
+          <TabMobileApps/>
+        </template>
+         <template v-slot:tabPanel-3> 
           <TabCertificate/>
         </template>
       </tab-menu>
@@ -21,18 +24,19 @@
 <script>
 import TabMenu from "../component/Tab.vue";
 import TabCertificate from '../component/TabCertificate.vue';
-import TabPorto from "../component/TabPorto.vue";
+import TabPorto from "../component/TabWeb.vue";
+import TabMobileApps from "../component/TabMobileApps.vue";
 
 export default {
   
   name: "Portofolio",
   components: {
-    TabMenu,TabPorto, TabCertificate
+    TabMenu,TabPorto, TabCertificate, TabMobileApps
   },
   data() {
     return {
       componentKey: 2,
-      tabList: ["Portofolio", "Certificate"],
+      tabList: ["Mobile Apps", "Web", "Certificate"],
     }
   },
   methods: {
