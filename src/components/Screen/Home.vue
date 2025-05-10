@@ -39,7 +39,7 @@
             <span class="tag">Lastly be realistic and critism</span>
           </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-            <div>
+            <div class="cursor-pointer">
               <button
                 class="
                   Btn-NH
@@ -62,9 +62,10 @@
                   src="../../assets/icons/download_ic.svg"
                   alt=""
                 />
-                <a :href="item" download>Download My CV</a>
+                <a :href="item" download>My Resume</a>
               </button>
             </div>
+            
           </div>
         </div>
         <div class="Img-container" data-aos="zoom-in" data-aos-duration="3000">
@@ -516,6 +517,7 @@ export default {
 
 .Btn-NH:hover {
   background-color: #2e64a1;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {

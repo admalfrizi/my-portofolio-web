@@ -1,10 +1,32 @@
 <template>
     <div class="MyPorto">
       <section class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="Title">
+        <div class="Title content-center">
           <h3 class="Title-porto font-bold text-white text-left">
             My Portofolio
           </h3>
+          <div class="cursor-pointer">
+              <a :href="porto" download class=" Btn-NH
+                w-full
+                flex
+                items-center
+                px-8
+                py-3
+                border border-transparent
+                text-sm
+                font-bold
+                rounded-md
+                text-white
+                md:py-4 md:text-lg md:px-10
+                Btn">
+                  <img
+                    class="mr-5"
+                    src="../../assets/icons/download_ic.svg"
+                    alt=""
+                  />
+                  Download File
+              </a>
+            </div>
         </div>
         <div class="container mx-auto flex flex-wrap">
             <div 
@@ -82,6 +104,8 @@
 </template>
 
 <script lang="js">
+import Portofolio from "../../assets/files/Portofolio.pdf"
+
 export default {
     data() {
         return {
@@ -95,6 +119,7 @@ export default {
             ],
             selectedImage: null,
             showModal: false,
+            porto: Portofolio,
         };
     },
      methods: {
@@ -121,7 +146,9 @@ export default {
 }
 
 .Title {
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .Title-porto {
@@ -166,6 +193,17 @@ export default {
   .MyPorto section .List-porto .Isi .link-div h3 {
     margin-bottom: 20px;
     margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .Title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Title h3 {
+    text-align: center;
   }
 }
 </style>
