@@ -63,7 +63,7 @@
                 <div class="flex flex-wrap">
                     <button
                         @click="closeModal"
-                        class="absolute top-2 right-2 text-white text-2xl font-bold cursor-pointer" 
+                        class="absolute top-2 right-2 text-white text-4xl font-bold cursor-pointer" 
                     >
                         &times;
                     </button>

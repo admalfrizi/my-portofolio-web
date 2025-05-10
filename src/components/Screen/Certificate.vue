@@ -23,10 +23,12 @@
         </div>
     </section>
   </div>
-  <div
+  <Transition name="fade">
+    <div
       v-if="showModal"
-      class="fixed inset-0 bg-black bg-opacity-25 flex items-center justify-center z-50"
+      class="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-50"
     >
+     <Transition name="scale-fade">
       <div class="flex flex-wrap">
         <button
           @click="closeModal"
@@ -37,11 +39,14 @@
 
         <img
           :src="getImages(selectedImage)"
-          class="max-w-full max-h-screen rounded-lg shadow-lg"
+          class="certificate-img rounded-lg shadow-lg"
           alt="Selected"
         />
       </div>
+     </Transition>
     </div>
+  </Transition>
+  
 </template>
 
 <script>
@@ -73,8 +78,8 @@ export default {
             this.showModal = true;
         },
         closeModal() {
-            this.selectedImage = null;
-            this.showModal = false;
+          this.showModal = false;
+          setTimeout(() => (selectedImage.value = null), 300);  
         },
         getImages(fileImg) {
             return new URL(`../../assets/certificates/${fileImg}`, import.meta.url).href
@@ -97,6 +102,30 @@ export default {
 
 .title-certificate {
   font-size: 36px;
+}
+
+.certificate-img {
+    width: 1000px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Scale and fade transition for modal content */
+.scale-fade-enter-active,
+.scale-fade-leave-active {
+  transition: all 0.3s ease;
+}
+.scale-fade-enter-from,
+.scale-fade-leave-to {
+  opacity: 0;
+  transform: scale(0.95);
 }
 
 @media screen and (max-width: 640px) {

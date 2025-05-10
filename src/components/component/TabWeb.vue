@@ -121,6 +121,7 @@ export default {
 
 .List-porto .Isi .Img {
     width: 100%;
+    margin-right: 20px;
 }
 
 .List-porto .Isi .Img img {
