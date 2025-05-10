@@ -147,163 +147,7 @@
         </div>
       </section>
     </div>
-    <div class="MyPorto">
-      <section class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-
-        <div class="Title">
-          <h3 class="Title-porto font-bold text-white text-left">
-            My Portofolio
-          </h3>
-        </div>
-        <div class="List-porto">
-          <div
-          class="Isi "
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
-        >
-          <div class="Img">
-            <img src="../../assets/image/porto_9.jpg" alt="porto" />
-          </div>
-          <div class="link-div text-left">
-            <h3 class="text-white font-medium">Foody Apps</h3>
-            <a href="https://github.com/admalfrizi/FoodyApps" class="link">
-              <img src="../../assets/icons/browser_icon.svg" alt="" />
-              <h2 class="text-white font-regular">Link Github</h2>
-            </a>
-            <a href="https://drive.google.com/file/d/13e9xLVsATi2MK1jkPx6NLsUPiqhOmILM/view?usp=sharing" class="link">
-              <img src="../../assets/icons/browser_icon.svg" alt="" />
-              <h2 class="text-white font-regular">Link APK</h2>
-            </a>
-           
-          </div>
-        </div>
-          <div
-          class="Isi mt-10"
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
-        >
-          <div class="Img">
-            <img src="../../assets/image/porto_8.jpg" alt="porto" />
-          </div>
-          <div class="link-div text-left">
-            <h3 class="text-white font-medium">Gocar Like User Online Apps</h3>
-            <a href="https://github.com/admalfrizi/gocar_apps_like_flutter" class="link">
-              <img src="../../assets/icons/browser_icon.svg" alt="" />
-              <h2 class="text-white font-regular">Link Github</h2>
-            </a>
-          </div>
-        </div>
-        <div
-          class="Isi mt-10"
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
-        >
-          <div class="Img">
-            <img src="../../assets/image/porto_7.jpg" alt="porto" />
-          </div>
-          <div class="link-div text-left">
-            <h3 class="text-white font-medium">Driver Online Apps</h3>
-            <a href="https://github.com/admalfrizi/gocar_driver_apps_like_flutter" class="link">
-              <img src="../../assets/icons/browser_icon.svg" alt="" />
-              <h2 class="text-white font-regular">Link Github</h2>
-            </a>
-          </div>
-        </div>
-          <div
-            class="Isi mt-10"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="3000"
-          >
-            <div class="Img">
-              <img src="../../assets/image/porto_6.jpg" alt="porto" />
-            </div>
-            <div class="link-div text-left">
-              <h3 class="text-white font-medium">Chat Apps With Encryption</h3>
-              <a href="https://github.com/admalfrizi/ChatAppsEncryption" class="link">
-                <img src="../../assets/icons/browser_icon.svg" alt="" />
-                <h2 class="text-white font-regular">Link Github</h2>
-              </a>
-            </div>
-          </div>
-          <div
-            class="Isi mt-10"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-duration="3000"
-          >
-            <div class="Img">
-              <img src="../../assets/image/porto_1.jpg" alt="" />
-            </div>
-            <div class="link-div text-left">
-              <h3 class="text-white font-medium">aaistore web</h3>
-              <a href="http://aai-store.great-site.net/?i=1" class="link">
-                <img src="../../assets/icons/browser_icon.svg" alt="" />
-                <h2 class="text-white font-regular">Link Website</h2>
-              </a>
-              <a
-                href="https://github.com/admalfrizi/uas_pbw_adamalfarizi"
-                class="link"
-              >
-                <img src="../../assets/icons/browser_icon.svg" alt="" />
-                <h2 class="text-white font-regular">Link Github</h2>
-              </a>
-            </div>
-          </div>
-          <div
-            class="Isi mt-10"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-duration="3000"
-          >
-            <div class="Img">
-              <img src="../../assets/image/web_2.jpg" alt="" />
-            </div>
-            <div class="link-div text-left">
-              <h3 class="text-white font-medium">KuproyKoding</h3>
-              <a href="" class="link">
-                <img src="../../assets/icons/browser_icon.svg" alt="" />
-                <h2 class="text-white font-regular">Link Github</h2>
-              </a>
-            </div>
-          </div>
-        </div>
-        <router-link
-          to="/portofolio"
-          class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
-        >
-          <div>
-            <a
-              href="mailto:adam.alfarizi.2002@gmail.com"
-              class="
-                Btn-NH
-                w-full
-                flex
-                items-center
-                justify-center
-                px-8
-                py-3
-                border border-transparent
-                text-base
-                font-bold
-                rounded-md
-                text-white
-                md:py-4 md:text-lg md:px-10
-                Btn
-              "
-            >
-              Find More My Portofolio...
-            </a>
-          </div>
-        </router-link>
-      </section>
-    </div>
+    <HomePorto />
     <div class="MySkills">
       <section class="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="Title items-center">
@@ -451,10 +295,12 @@
       </section>
     </div>
   </div>
+  
 </template>
 
 <script>
 import cvPdf from "../../assets/files/CV_AdamAlfarizi_ATS.pdf";
+import HomePorto from "../component/HomePorto.vue";
 
 const skills = [
   {
@@ -489,6 +335,7 @@ const skills = [
 
 export default {
   name: "Home",
+  components: { HomePorto},
   setup() {
     return {
       skills,
@@ -589,54 +436,6 @@ export default {
 
 .Sub2 {
   line-height: 45px;
-}
-
-.MyPorto {
-  background-color: #406ca8;
-  padding-top: 72px;
-  padding-bottom: 148px;
-}
-
-.Title {
-  margin-bottom: 40px;
-}
-
-.Title-porto {
-  font-size: 36px;
-}
-
-.List-porto .Isi {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.List-porto .Isi .Img {
-  margin-right: 20px;
-  max-width: 1000px;
-}
-
-.List-porto .Isi .Img img {
-  width: 100%;
-}
-.link-div h3 {
-  margin-bottom: 33px;
-  font-size: 24px;
-}
-
-.link {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 33px;
-}
-
-.link img {
-  margin-right: 15px;
-}
-
-.link h2:hover {
-  color: antiquewhite;
 }
 
 .MySkills {
@@ -759,21 +558,6 @@ export default {
 
   .Btn-NH {
     margin-top: 30px;
-  }
-
-  .Container .MyPorto section {
-    text-align: center;
-    margin-inline: 20px;
-  }
-
-  .Container .MyPorto section .List-porto .Isi {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .Container .MyPorto section .List-porto .Isi .link-div h3 {
-    margin-bottom: 20px;
-    margin-top: 10px;
   }
 
   .Container .MySkills .Line .Skills-Isi {
