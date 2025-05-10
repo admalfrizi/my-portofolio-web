@@ -454,7 +454,7 @@
 </template>
 
 <script>
-import cvPdf from "../../assets/files/CV_AdamAlfarizi_2023.pdf";
+import cvPdf from "../../assets/files/CV_AdamAlfarizi_ATS.pdf";
 
 const skills = [
   {
