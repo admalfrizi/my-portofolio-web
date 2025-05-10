@@ -33,8 +33,7 @@
             Sub2
           "
         >
-          My Name is Adam Alfarizi, I'am UI UX Design enthusiast and also
-          building my career in the mobile and web development.
+          My Name is Adam Alfarizi, I'am Mobile and Web Developer Enthusiast.
         </p>
         <p
           class="
@@ -47,7 +46,7 @@
             Sub2
           "
         >
-        I have been interested in IT and Basic Programming since I was in Vocational High School, majoring in IT Computer Engineering. Futhermore, exploring a Web and Mobile Application Programming is my passionate
+        I have been interested in IT and Basic Programming since I was in Vocational High School and Freshgraduated from Unversitas Dian Nuswantoro with Bachelor Degree in Informatics Engineering
         </p>
         <p
           class="
@@ -60,8 +59,8 @@
             Sub2
           "
         >
-          and currently studying at the Dian Nuswantoro University Semarang
-          majoring in informatics engineering.
+         I'am skilled in Mobile and Web Apps Development with Some of a Tech Stack 
+         such as Kotlin, Flutter, PHP, Laravel, Codeigniter, ReactJS and VueJS.
         </p>
       </div>
     </main>

@@ -101,8 +101,7 @@
               Sub2
             "
           >
-            Well I'am just ordinary people from Semarang taste like Jakarta that
-            love all of things about technology and design
+            I'm a passionate individual from Semarang with a deep interest in software development and technology, always driven by curiosity and innovation.
           </p>
           <p
             class="
@@ -115,7 +114,7 @@
               Sub2
             "
           >
-          I have been interested in IT and Basic Programming since I was in Vocational High School and.....
+          I have been interested in Technology and Basic Programming since I was in Vocational High School and.....
           </p>
           <router-link
             to="/aboutme"
@@ -137,7 +136,7 @@
                 md:py-4 md:text-lg md:px-10
                 Btn
               ">
-              About Me...
+              Explore Me
             </div>
           </router-link>
         </div>
