@@ -41,8 +41,8 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-    const title = to.meta.title || 'Default Title'; // Use a default if no title is defined
-    document.title = title;
+    const title = to.meta.title || 'Default Title';
+    document.title = `${title} | Adam Alfarizi Web`;
     
     next();
 })
