@@ -39,7 +39,7 @@
 
         <img
           :src="getImages(selectedImage)"
-          class="certificate-img rounded-lg shadow-lg"
+          class="rounded-lg shadow-lg object-scale-down certificate-img"
           alt="Selected"
         />
       </div>
@@ -54,6 +54,7 @@ export default {
     data() {
         return {
             images: [
+                'sertifikat_bnsp.jpg', 
                 'sertifikat_toefl.jpg', 
                 'sertifikat_progsil_desain_grafis.jpg', 
                 'sertifikat_progsil_vb_net.jpg', 
@@ -105,7 +106,7 @@ export default {
 }
 
 .certificate-img {
-    width: 1000px;
+  width: 800px;
 }
 
 .fade-enter-active,
