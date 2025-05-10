@@ -169,33 +169,83 @@
         <div class="Title items-center">
           <h3 class="Title-tool font-bold text-white">Tools and Platform</h3>
         </div>
-        <div class="flex flex-row justify-between Isi-tool">
+        <div class="flex flex-wrap justify-center gap-6">
           <div
-            class="tools items-center"
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
             data-aos="flip-up"
             data-aos-duration="2000"
           >
-            <div class="tools_ic">
-              <img src="../../assets/icons/figma_ic.svg" alt="tools" />
+            <div class="tools_ic mx-auto">
+              <img class="justify-center" src="../../assets/icons/jetpack.png" alt="tools" />
             </div>
-            <h3 class="font-medium text-white items-center mx-auto">Figma</h3>
+            <h3 class="font-medium text-white items-center mx-auto">Jetpack Compose</h3>
           </div>
           <div
-            class="tools items-center"
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
             data-aos="flip-up"
             data-aos-duration="2000"
           >
-            <div class="tools_ic">
-              <img src="../../assets/icons/vscode_ic.svg" alt="tools" />
+            <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/laravel.svg" alt="tools" />
             </div>
-            <h3 class="font-medium text-white items-center mx-auto">Vscode</h3>
+            <h3 class="font-medium text-white items-center mx-auto">Laravel</h3>
           </div>
           <div
-            class="tools items-center"
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
             data-aos="flip-up"
             data-aos-duration="2000"
           >
-            <div class="tools_ic">
+            <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/codeigniter.png" alt="tools" />
+            </div>
+            <h3 class="font-medium text-white items-center mx-auto">Codeigniter</h3>
+          </div>
+          <div
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          >
+            <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/wordpress-icon.svg" alt="tools" />
+            </div>
+            <h3 class="font-medium text-white items-center mx-auto">Wordpress</h3>
+          </div>
+          <div
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          >
+            <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/bootstrap.svg" alt="tools" />
+            </div>
+            <h3 class="font-medium text-white items-center mx-auto">Bootstrap</h3>
+          </div>
+          <div
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          >
+            <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/tailwind.svg" alt="tools" />
+            </div>
+            <h3 class="font-medium text-white items-center mx-auto">Tailwind</h3>
+          </div>
+          <div
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          >
+            <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/kotlin.png" alt="tools" />
+            </div>
+            <h3 class="font-medium text-white items-center mx-auto">Kotlin</h3>
+          </div>
+          <div
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          >
+            <div class="tools_ic mx-auto">
               <img src="../../assets/icons/React.svg" alt="tools" />
             </div>
             <h3 class="font-medium text-white items-center mx-auto">
@@ -203,11 +253,23 @@
             </h3>
           </div>
           <div
-            class="tools items-center"
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
             data-aos="flip-up"
             data-aos-duration="2000"
           >
-            <div class="tools_ic">
+            <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/vuejs.svg" alt="tools" />
+            </div>
+            <h3 class="font-medium text-white items-center mx-auto">
+              VueJS
+            </h3>
+          </div>
+          <div
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          >
+            <div class="tools_ic mx-auto">
               <img src="../../assets/icons/android_studio_ic.svg" alt="tools" />
             </div>
             <h3 class="font-medium text-white items-center mx-auto">
@@ -215,11 +277,11 @@
             </h3>
           </div>
           <div
-            class="tools items-center"
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
             data-aos="flip-up"
             data-aos-duration="2000"
           >
-            <div class="tools_ic">
+            <div class="tools_ic mx-auto">
               <img src="../../assets/icons/flutter_ic.svg" alt="tools" />
             </div>
             <h3 class="font-medium text-white items-center mx-auto">Flutter</h3>
@@ -576,11 +638,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 95%;
-  }
-
-  .Container .MySkills .Tool .Title{
-    margin-bottom: 0px;
+    width: 100%;
   }
 
   .Container .NeedHelp .Layout2 {
