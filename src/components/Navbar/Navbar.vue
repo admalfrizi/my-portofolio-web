@@ -236,7 +236,6 @@
 <script>
 import { Popover, PopoverButton, PopoverPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
-import { RouterLink } from "vue-router";
 
 export default {
   components: {
