@@ -1,22 +1,18 @@
 <template>
   <div class="List-porto"> 
     <div
-      class="Isi mt-10"
+      class="Isi"
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
       data-aos-duration="3000"
     >
       <div class="Img">
-        <img src="../../assets/image/porto_1.jpg" alt="" />
+        <img src="../../assets/image/simpenpass_backend.jpg" alt="" />
       </div>
       <div class="link-div">
-        <h3 class="text-white font-medium">aaistore web</h3>
-        <a href="http://aai-store.great-site.net/?i=1" class="link">
-          <img src="../../assets/icons/browser_icon.svg" alt="" />
-          <h2 class="text-white font-regular">Link Website</h2>
-        </a>
+        <h3 class="text-white font-medium text-left">SimpenPass Backend API</h3>
         <a
-          href="https://github.com/admalfrizi/uas_pbw_adamalfarizi"
+          href="https://github.com/admalfrizi/simpenpass-api"
           class="link"
         >
           <img src="../../assets/icons/browser_icon.svg" alt="" />
@@ -27,17 +23,80 @@
     <div
       class="Isi mt-10"
       data-aos="fade-up"
-      data-aos-anchor-placement="center-bottom"
+      data-aos-anchor-placement="top-bottom"
       data-aos-duration="3000"
     >
       <div class="Img">
-        <img src="../../assets/image/web_2.jpg" alt="porto" />
+        <img src="../../assets/image/simpeg_udinus.jpg" alt="" />
       </div>
       <div class="link-div">
-        <h3 class="text-white font-medium">KuproyKoding</h3>
-        <a href="https://github.com/admalfrizi/tugas_pbw" class="link">
+        <h3 class="text-white font-medium text-left">SIMPEG Udinus</h3>
+        <a
+          href="https://neosimpeg.dinus.ac.id"
+          class="link"
+        >
+          <img src="../../assets/icons/browser_icon.svg" alt="" />
+          <h2 class="text-white font-regular">Link Website</h2>
+        </a>
+      </div>
+    </div>
+    <div
+      class="Isi mt-10"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="3000"
+    >
+      <div class="Img">
+        <img src="../../assets/image/biro_sdm_udinus.jpg" alt="" />
+      </div>
+      <div class="link-div">
+        <h3 class="text-white font-medium text-left">Biro SDM Udinus</h3>
+        <a
+          href="https://sdm.dinus.ac.id/"
+          class="link"
+        >
+          <img src="../../assets/icons/browser_icon.svg" alt="" />
+          <h2 class="text-white font-regular">Link Website</h2>
+        </a>
+      </div>
+    </div>
+    <div
+      class="Isi mt-10"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="3000"
+    >
+      <div class="Img">
+        <img src="../../assets/image/crud_api_laravel.jpg" alt="" />
+      </div>
+      <div class="link-div">
+        <h3 class="text-white font-medium text-left">Dashboard CRUD API Laravel</h3>
+        <a
+          href="https://github.com/admalfrizi/DashboardAdminForAppkuApps"
+          class="link"
+        >
           <img src="../../assets/icons/browser_icon.svg" alt="" />
           <h2 class="text-white font-regular">Link Github</h2>
+        </a>
+      </div>
+    </div>
+    <div
+      class="Isi mt-10"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="3000"
+    >
+      <div class="Img">
+        <img src="../../assets/image/my_personal_web.jpg" alt="" />
+      </div>
+      <div class="link-div">
+        <h3 class="text-white font-medium text-left">My Personal Web</h3>
+        <a
+          href="https://adamalfarizi.site/home"
+          class="link"
+        >
+          <img src="../../assets/icons/browser_icon.svg" alt="" />
+          <h2 class="text-white font-regular">Link Website</h2>
         </a>
       </div>
     </div>
@@ -84,7 +143,7 @@ export default {
 .link {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 33px;
 }
 
@@ -96,16 +155,7 @@ export default {
   color: antiquewhite;
 }
 
-@media screen and (max-width: 600px) {
-
-  .MyPorto {
-    padding-top: 120px;
-  }
-  .MyPorto section {
-    text-align: center;
-    padding-left: 10px;
-  }
-
+@media screen and (max-width: 720px) {
   .MyPorto section .List-porto .Isi {
     display: flex;
     flex-direction: column;
@@ -118,10 +168,10 @@ export default {
   }
 
   .MyPorto section .List-porto .Isi .link-div{
-    width: 100%;
+    width: auto;
     text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .MyPorto section .List-porto .Isi .link-div h3 {

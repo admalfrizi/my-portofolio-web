@@ -94,13 +94,8 @@ export default {
 @media screen and (max-width: 600px) {
 
   .MyPorto {
-    padding-top: 120px;
     margin: auto;
     width: 100%;
-  }
-  .MyPorto section {
-    text-align: center;
-    padding-left: 10px;
   }
 
   .MyPorto section .List-porto .Isi {
@@ -112,4 +107,11 @@ export default {
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  section {
+    padding-inline: 1.5rem;
+  }
+}
+
 </style>

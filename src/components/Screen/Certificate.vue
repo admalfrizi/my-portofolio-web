@@ -2,11 +2,11 @@
   <div :key="componentKey" class="certificate">
     <section class="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div class="Title">
-        <h3 class="Title-porto font-bold text-white text-left">
+        <h3 class="title-certificate font-bold text-white text-left">
             My Certificates
             </h3>
         </div>
-        <div class="container px-5 mx-auto flex flex-wrap">
+        <div class="container mx-auto flex flex-wrap">
             <div 
                 class="h-full p-4 lg:w-1/3 cursor-pointer" 
                 data-aos="fade-up"
@@ -89,6 +89,20 @@ export default {
   background-color: #406ca8;
   padding-top: 152px;
   padding-bottom: 100px;
+}
+
+.Title {
+  margin-bottom: 40px;
+}
+
+.title-certificate {
+  font-size: 36px;
+}
+
+@media screen and (max-width: 640px) {
+  section {
+    padding-inline: 1.5rem;
+  }
 }
 
 </style>

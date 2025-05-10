@@ -181,6 +181,20 @@
                     >Home</RouterLink
                   >
                   <RouterLink
+                    to="certificate"
+                    active-class="activelink"
+                    class="
+                      block
+                      px-3
+                      py-2
+                      rounded-md
+                      font-bold
+                      text-white
+                      hover:text-yellow-400
+                    "
+                    >Certificate</RouterLink
+                  >
+                  <RouterLink
                     to="portofolio"
                     active-class="activelink"
                     class="
@@ -241,17 +255,16 @@ export default {
   color: #ead025;
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1280px) {
   .Nav-out {
     padding-top: 0px;
     padding-bottom: 20px;
   }
 }
 
-@media screen and (max-width: 600px) {
-
-  .Title-nav {
-    margin-left: 20px;
+@media screen and (max-width: 640px) {
+  nav {
+    padding-inline: 1.5rem;
   }
 }
 </style>
