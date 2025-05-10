@@ -8,13 +8,10 @@
       </div>
       <tab-menu class="w-11/12 lg:w-10/12 mb-16" :tabList="tabList">
         <template v-slot:tabPanel-1>  
-          <TabPorto/>
-        </template>
-        <template v-slot:tabPanel-2> 
           <TabMobileApps/>
         </template>
-         <template v-slot:tabPanel-3> 
-          <TabCertificate/>
+        <template v-slot:tabPanel-2> 
+          <TabWeb/>
         </template>
       </tab-menu>
     </section>
@@ -23,20 +20,19 @@
 
 <script>
 import TabMenu from "../component/Tab.vue";
-import TabCertificate from '../component/TabCertificate.vue';
-import TabPorto from "../component/TabWeb.vue";
+import TabWeb from "../component/TabWeb.vue";
 import TabMobileApps from "../component/TabMobileApps.vue";
 
 export default {
   
   name: "Portofolio",
   components: {
-    TabMenu,TabPorto, TabCertificate, TabMobileApps
+    TabMenu,TabWeb, TabMobileApps
   },
   data() {
     return {
       componentKey: 2,
-      tabList: ["Mobile Apps", "Web", "Certificate"],
+      tabList: ["Mobile Apps", "Web"],
     }
   },
   methods: {

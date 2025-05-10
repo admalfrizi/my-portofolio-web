@@ -62,6 +62,20 @@
                   >Home</RouterLink
                 >
                 <RouterLink
+                  to="/certificate"
+                  active-class="activelink"
+                  class="
+                    block
+                    px-5
+                    py-2
+                    rounded-md
+                    font-bold
+                    text-white
+                    hover:text-yellow-400
+                  "
+                  >Certificate</RouterLink
+                >
+                <RouterLink
                   to="/portofolio"
                   active-class="activelink"
                   class="

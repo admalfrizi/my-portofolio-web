@@ -123,64 +123,6 @@
             </a>
           </div>
         </div>
-        <div
-          class="Isi mt-10"
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
-        >
-          <div class="Img">
-            <img src="../../assets/image/porto_5.jpg" alt="porto" />
-          </div>
-          <div class="link-div">
-            <h3 class="text-white font-medium">Traveline apps design</h3>
-            <a href="" class="link">
-              <img src="../../assets/icons/browser_icon.svg" alt="" />
-              <h2 class="text-white font-regular">Link Dribbble</h2>
-            </a>
-          </div>
-        </div>
-        <div
-          class="Isi mt-10"
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="3000"
-        >
-          <div class="Img">
-            <img src="../../assets/image/porto_1.jpg" alt="" />
-          </div>
-          <div class="link-div">
-            <h3 class="text-white font-medium">aaistore web</h3>
-            <a href="http://aai-store.great-site.net/?i=1" class="link">
-              <img src="../../assets/icons/browser_icon.svg" alt="" />
-              <h2 class="text-white font-regular">Link Website</h2>
-            </a>
-            <a
-              href="https://github.com/admalfrizi/uas_pbw_adamalfarizi"
-              class="link"
-            >
-              <img src="../../assets/icons/browser_icon.svg" alt="" />
-              <h2 class="text-white font-regular">Link Github</h2>
-            </a>
-          </div>
-        </div>
-        <div
-          class="Isi mt-10"
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom"
-          data-aos-duration="3000"
-        >
-          <div class="Img">
-            <img src="../../assets/image/web_2.jpg" alt="porto" />
-          </div>
-          <div class="link-div">
-            <h3 class="text-white font-medium">KuproyKoding</h3>
-            <a href="https://github.com/admalfrizi/tugas_pbw" class="link">
-              <img src="../../assets/icons/browser_icon.svg" alt="" />
-              <h2 class="text-white font-regular">Link Github</h2>
-            </a>
-          </div>
-        </div>
       </div>
 </template>
 

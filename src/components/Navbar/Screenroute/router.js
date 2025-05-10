@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../../Screen/Home.vue';
 import Portofolio from '../../Screen/Portofolio.vue'
 import AboutMe from '../../Screen/AboutMe.vue';
+import Certificate from '../../Screen/Certificate.vue';
 
 const routes = [
     {
@@ -10,6 +11,14 @@ const routes = [
         component: Home,
         meta: {
             title: 'Home',
+        }
+    },
+    {
+        path: '/certificate',   
+        name: 'Certificate',
+        component: Certificate,
+        meta: {
+            title: 'Certificate',
         }
     },
     {
