@@ -121,28 +121,23 @@
             to="/aboutme"
             class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
           >
-            <div>
-              <a
-                href="mailto:adam.alfarizi.2002@gmail.com"
-                class="
-                  Btn-NH
-                  w-full
-                  flex
-                  items-center
-                  justify-center
-                  px-8
-                  py-3
-                  border border-transparent
-                  text-base
-                  font-bold
-                  rounded-md
-                  text-white
-                  md:py-4 md:text-lg md:px-10
-                  Btn
-                "
-              >
-                About Me...
-              </a>
+            <div class="
+                Btn-NH
+                w-lg-full
+                flex
+                items-center
+                sm: justify-center
+                px-8
+                py-3
+                border border-transparent
+                text-base
+                font-bold
+                rounded-md
+                text-white
+                md:py-4 md:text-lg md:px-10
+                Btn
+              ">
+              About Me...
             </div>
           </router-link>
         </div>

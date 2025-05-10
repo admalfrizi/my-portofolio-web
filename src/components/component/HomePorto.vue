@@ -1,8 +1,10 @@
 <template>
     <div class="MyPorto">
       <section class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="Title content-center">
-          <h3 class="Title-porto font-bold text-white text-left">
+        <div class="Title" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="3000">
+          <h3 class="Title-porto font-bold text-white text-left content-center">
             My Portofolio
           </h3>
           <div class="cursor-pointer">
@@ -18,6 +20,8 @@
                 rounded-md
                 text-white
                 md:py-4 md:text-lg md:px-10
+                sm:justify-center
+                content-center
                 Btn">
                   <img
                     class="mr-5"
@@ -50,28 +54,23 @@
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="3000"
         >
-          <div>
-            <a
-              href="mailto:adam.alfarizi.2002@gmail.com"
-              class="
-                Btn-NH
-                w-full
-                flex
-                items-center
-                justify-center
-                px-8
-                py-3
-                border border-transparent
-                text-base
-                font-bold
-                rounded-md
-                text-white
-                md:py-4 md:text-lg md:px-10
-                Btn
-              "
-            >
-              Find More My Portofolio...
-            </a>
+          <div class="
+              Btn-NH
+              w-md-full
+              flex
+              items-center
+              px-8
+              py-3
+              border border-transparent
+              text-base
+              font-bold
+              rounded-md
+              text-white
+              md:py-4 md:text-lg md:px-10
+              sm: justify-center
+              Btn
+            ">
+                Find More My Portofolio...
           </div>
         </router-link>
       </section>
