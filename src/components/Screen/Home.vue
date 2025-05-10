@@ -151,7 +151,7 @@
     <div class="MySkills">
       <section class="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="Title items-center">
-          <h3 class="Title-porto font-bold text-white">My Skills</h3>
+          <h3 class="MySkills-title font-bold text-white">My Skills</h3>
         </div>
         <div class="Line">
           <div
@@ -443,6 +443,11 @@ export default {
   padding-top: 110px;
   padding-bottom: 110px;
   margin-bottom: 168px;
+}
+
+.MySkills-title {
+  font-size: 36px;
+  margin-bottom: 60px;
 }
 
 .Line {
