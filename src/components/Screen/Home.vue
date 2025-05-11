@@ -150,14 +150,14 @@
         </div>
         <div class="Line">
           <div
-            class="Skills-Isi"
+            class="flex flex-wrap justify-start gap-4 mt-10"
             v-for="skill in skills"
             v-bind:key="skill.id"
             data-aos="zoom-in"
             data-aos-duration="3000"
           >
             <div
-              class="Skillsname px-6"
+              class="text-white px-6 py-3 rounded-full"
               v-bind:style="{ background: skill.color }"
             >
               <h3 class="lang font-regular text-white">{{ skill.name }}</h3>
@@ -282,9 +282,49 @@
             data-aos-duration="2000"
           >
             <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/jquery.svg" alt="tools" />
+            </div>
+            <h3 class="font-medium text-white items-center mx-auto">JQuery</h3>
+          </div>
+          <div
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          >
+            <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/mysql.svg" alt="tools" />
+            </div>
+            <h3 class="font-medium text-white items-center mx-auto">MySQL</h3>
+          </div>
+          <div
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          >
+            <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/firebase.png" alt="tools" />
+            </div>
+            <h3 class="font-medium text-white items-center mx-auto">Firebase</h3>
+          </div>
+          <div
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          >
+            <div class="tools_ic mx-auto">
               <img src="../../assets/icons/flutter_ic.svg" alt="tools" />
             </div>
             <h3 class="font-medium text-white items-center mx-auto">Flutter</h3>
+          </div>
+          <div
+            class="tools items-center flex flex-col items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6"
+            data-aos="flip-up"
+            data-aos-duration="2000"
+          >
+            <div class="tools_ic mx-auto">
+              <img src="../../assets/icons/vscode_ic.svg" alt="tools" />
+            </div>
+            <h3 class="font-medium text-white items-center mx-auto">VSCode</h3>
           </div>
         </div>
       </section>
@@ -504,7 +544,6 @@ export default {
 
 .MySkills-title {
   font-size: 36px;
-  margin-bottom: 60px;
 }
 
 .Line {
@@ -524,13 +563,6 @@ export default {
 
 .MySkills .Layout .Title {
   margin: auto;
-}
-
-.Skills-Isi {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 90px;
-  margin-bottom: 30px;
 }
 
 .Skills-Isi .lang {
