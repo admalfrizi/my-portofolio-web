@@ -6,7 +6,7 @@
           My Portofolio
         </h3>
       </div>
-      <tab-menu class="w-11/12 lg:w-10/12 mb-16" :tabList="tabList">
+      <tab-menu class="mx-auto w-full mb-16" :tabList="tabList">
         <template v-slot:tabPanel-1>  
           <TabMobileApps/>
         </template>
