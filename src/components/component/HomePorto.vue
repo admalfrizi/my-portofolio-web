@@ -103,7 +103,7 @@
 </template>
 
 <script lang="js">
-import Portofolio from "../../assets/files/Portofolio.pdf"
+import Portofolio from "../../assets/files/portofolio.pdf"
 
 export default {
     data() {
