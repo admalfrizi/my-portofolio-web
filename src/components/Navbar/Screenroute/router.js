@@ -6,8 +6,7 @@ import Certificate from '../../Screen/Certificate.vue';
 
 const routes = [
     {
-        path: '/home',
-        alias: '/',
+        path: '/',
         component: Home,
         meta: {
             title: 'Home',
