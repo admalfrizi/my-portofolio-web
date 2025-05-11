@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createMemoryHistory } from 'vue-router';
 import Home from '../../Screen/Home.vue';
 import Portofolio from '../../Screen/Portofolio.vue'
 import AboutMe from '../../Screen/AboutMe.vue';
@@ -6,7 +6,8 @@ import Certificate from '../../Screen/Certificate.vue';
 
 const routes = [
     {
-        path: '/',
+        path: '/home',
+        alias: '/',
         component: Home,
         meta: {
             title: 'Home',
@@ -39,7 +40,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createMemoryHistory(),
     routes,
     scrollBehavior() {
         document.getElementById('app').scrollIntoView({
