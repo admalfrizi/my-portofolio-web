@@ -5,6 +5,30 @@
         <h3 class="Title-porto font-bold text-white text-left">
           My Portofolio
         </h3>
+        <div class="cursor-pointer">
+          <a :href="porto" download class="
+            w-full
+            flex
+            items-center
+            px-8
+            py-3
+            border border-transparent
+            text-sm
+            font-bold
+            rounded-md
+            text-white
+            md:py-4 md:text-lg md:px-10
+            sm:justify-center
+            content-center
+            Btn">
+              <img
+                class="mr-5"
+                src="../../assets/icons/download_ic.svg"
+                alt=""
+              />
+              Download File
+          </a>
+        </div>
       </div>
       <tab-menu class="mx-auto w-full mb-16" :tabList="tabList">
         <template v-slot:tabPanel-1>  
@@ -22,6 +46,8 @@
 import TabMenu from "../component/Tab.vue";
 import TabWeb from "../component/TabWeb.vue";
 import TabMobileApps from "../component/TabMobileApps.vue";
+import Portofolio from "../../assets/files/portofolio.pdf"
+
 
 export default {
   
@@ -33,6 +59,7 @@ export default {
     return {
       componentKey: 2,
       tabList: ["Mobile Apps", "Web"],
+      porto: Portofolio,
     }
   },
   methods: {
@@ -51,7 +78,22 @@ export default {
 }
 
 .Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin-bottom: 40px;
+}
+
+.Btn {
+  color: white;
+  background-color: #092f5a;
+  border-radius: 32px;
+}
+
+.Btn:hover {
+  transition-duration: 0.5s;
+  background-color: #2e64a1;
+  cursor: pointer;
 }
 
 .Title-porto {
@@ -111,6 +153,18 @@ export default {
 @media screen and (max-width: 640px) {
   section {
     padding-inline: 1.5rem;
+  }
+
+  .Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .Title div .Btn {
+    margin-top: 20px;
+    justify-content: center;
   }
 }
 

@@ -119,6 +119,12 @@
               <img src="../../assets/icons/browser_icon.svg" alt="" />
               <h2 class="text-white font-regular">Link Github</h2>
             </a>
+            <div class="flex flex-wrap justify-start desc">
+              <p class="text-justify text-white font-light">
+                an Mobile Apps Developed for companion of gocar_apps_like_flutter in that i created, the purpose of this apps is to accomodate the driver to pickup and passenger 
+                from maps information that integrated to GPS
+              </p>
+            </div>
           </div>
         </div>
         <div
