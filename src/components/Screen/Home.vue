@@ -76,7 +76,7 @@
     <div class="WhoAmI">
       <section class="mx-auto max-w-7xl sm:px-6 lg:px-8 Layout2">
         <div
-          class="Img-container-wai"
+          class="Img-container-wai sm:flex justify-center"
           data-aos="fade-right"
           data-aos-duration="3000"
         >
@@ -523,6 +523,7 @@ export default {
 .Img-container-wai {
   width: 484px;
   height: 470px;
+  margin-right: 100px;
 }
 
 .Title-WAI {
@@ -640,9 +641,14 @@ export default {
 
   .Container .WhoAmI .Layout2 .Img-container-wai {
     margin: auto;
-    width: 60%;
+    width: 90%;
     height: 20%;
     margin-bottom: 20px;
+  }
+
+  .Img-container-wai {
+    margin-right: 0px;
+    
   }
 
   .Container .WhoAmI .Layout2 .Isi {
@@ -690,6 +696,15 @@ export default {
     text-align: center;
     margin: auto;
     width: 80%;
+    
+  }
+}
+
+@media screen and (max-width: 640px) {
+ .Img-container-wai {
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
     
   }
 }

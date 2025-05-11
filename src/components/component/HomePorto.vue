@@ -79,6 +79,7 @@
         <div
             v-if="showModal"
             class="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center z-50"
+            @click="closeModal"
         >
             <Transition name="scale-fade">
                 <div class="flex flex-wrap">
@@ -140,8 +141,7 @@ export default {
 <style scoped>
 .MyPorto {
   background-color: #406ca8;
-  padding-top: 72px;
-  padding-bottom: 148px;
+  padding-block: 100px;
 }
 
 .Title {
