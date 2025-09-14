@@ -396,7 +396,7 @@
 </template>
 
 <script>
-import cvPdf from "../../assets/files/CV_AdamAlfarizi_ATS.pdf";
+import cvPdf from "../../assets/files/CV_AdamAlfarizi_Update.pdf";
 import HomePorto from "../component/HomePorto.vue";
 
 const skills = [
